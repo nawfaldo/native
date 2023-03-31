@@ -9,15 +9,9 @@
   </head>
   <body>
     <header class="space-x-5 p-5 w-full shadow-md sticky top-0 flex">
-      <a href="http://127.0.0.1:5500/native/index.html" class="font-light"
-        >HOME</a
-      >
-      <a href="http://127.0.0.1:5500/native/contact.html" class="font-bold"
-        >CONTACT</a
-      >
-      <a href="http://127.0.0.1:5500/native/about.html" class="font-light"
-        >ABOUT</a
-      >
+      <a href="/index.html" class="font-light">HOME</a>
+      <a href="/contact.html" class="font-bold">CONTACT</a>
+      <a href="/about.html" class="font-light">ABOUT</a>
     </header>
     <main class="m-10 space-y-10">
       <div>
@@ -26,7 +20,9 @@
           Tambah Kontak
         </button>
       </div>
-      <div><ul id="contacts"></ul></div>
+      <div>
+        <ul id="contacts"></ul>
+      </div>
     </main>
     <script>
       let contacts = [];
